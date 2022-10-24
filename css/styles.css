@@ -371,15 +371,25 @@ body {
   justify-content: center;
 }
 
-.client-logo {
+/* .client-logo {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 106px;
   height: 60px;
-}
+} */
 
-.client {
+/* .client {
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icons-color);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.client-logo {
   width: 170px;
   height: 92px;
   border: 1px solid var(--icons-color);
@@ -393,13 +403,13 @@ body {
   fill: var(--icons-color);
 }
 
-.client:hover,
-.client:focus {
+.client-logo:hover,
+.client-logo:focus {
   border: 1px solid var(--accent-text-color);
 }
 
-.client:hover .client-icon,
-.client:focus .client-icon {
+.client-logo:hover .client-icon,
+.client-logo:focus .client-icon {
   fill: var(--accent-text-color);
 }
 
